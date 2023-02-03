@@ -1,10 +1,12 @@
+import { Forms } from './components/Forms'
+import { Layout } from './components/Layout'
 // import { BasicTypes } from './typescript/BasicTypes'
 // import { LiteralObjects } from './typescript/LiteralObjects'
 // import { Functions } from './interfaces/Functions'
 // import { Counter } from './components/Counter'
 // import { HookCounter } from './components/HookCounter'
-import { Layout } from './components/Layout'
-import { Login } from './components/Login/Login'
+// import { Login } from './components/Login/Login'
+// import { Users } from './components/Users'
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
       {/* <Functions /> */}
       {/* <Counter /> */}
       {/* <HookCounter /> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <Users /> */}
+      <Forms />
     </Layout>
   )
 }
